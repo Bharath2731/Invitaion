@@ -1,0 +1,20 @@
+button{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+  border: 1px solid gray;
+  background-color: white;
+  font-size: medium;
+  letter-spacing: 1px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: gray;
+}
+button:hover{
+  padding: 12px;
+  color: white;
+  background-color: gray;
+}
